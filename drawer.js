@@ -10,8 +10,8 @@ export default class drawer extends Component {
     render() {
         return (
 
-            <View style={{ flex: 1, margin:1}}>
-                <View style={{ padding: 20, borderBottomWidth: 1, alignItems: 'center', justifyContent: 'center' , flex:.02}}>
+            <View style={{ flex: 1, margin:5,padding: 20}}>
+                <View style={{ padding: 10,margin:4,borderBottomWidth: 1, alignItems: 'center', justifyContent: 'center' , flex:.02}}>
                     <TouchableOpacity onPress={() => Actions.demo()}>
                     <Image source={{uri:'https://cdn1.vectorstock.com/i/1000x1000/93/30/flat-home-icon-house-sign-web-internet-button-vector-13229330.jpg'}}/>
                         <Text style={{ fontSize: 25, color: 'black' }}>Home</Text>

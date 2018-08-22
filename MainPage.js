@@ -38,6 +38,8 @@ export default class MainPage extends Component {
                        { /*<Scene key="TabScene"
                             component={TabScene}
                         />*/}
+                         <Scene key="Edit"
+                            component={Edit} />
                         <Scene key="tabbar"
                             tabs={true}
                             avtiveTintColor="#FFFFFF"
@@ -55,8 +57,7 @@ export default class MainPage extends Component {
                                     component={Tab3} />
                                 </Scene>
                             </Scene>
-                            <Scene key="Edit"
-                            component={Edit} />
+                           
 
                         
                     </Drawer>
